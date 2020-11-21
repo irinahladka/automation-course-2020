@@ -1,0 +1,32 @@
+ - Name: Bug-  Misplacement 
+
+   - Summary:   The  "contacts" section contains latest news
+
+   - Steps to reproduce: The news should be removed from the  "contacts" section
+
+   - Expected result: The "contacts" section should be contain only contact information
+
+   - Environment: Production
+
+
+ - Name: Bug- Missing contact form
+
+   - Summary: The contact form in the "contacts" section is not available
+
+   - Steps to reproduce: The contact form should be added to the  "contacts" section and must contain information like
+
+   "name", "email","FAQ"
+
+   - Expected result: The user should be able to  fill in the form 
+
+   - Environment: Production
+
+ - Name: Bug- "f" icon
+
+   - Summary: The green "f" icon in the "economy" section is inoperative
+
+   - Steps to reproduce: The green "f" icon  must be linked to  the  "Pravda.IF.UA" facebook page
+
+   - Expected result: The user should be able to open the "Pravda.IF.UA" facebook page via hyperlink
+
+   - Environment: Production
