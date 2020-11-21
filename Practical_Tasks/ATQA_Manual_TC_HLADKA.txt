@@ -1,0 +1,28 @@
+use case
+1.The user can find culture news
+2.The user can find last news
+3.The user can find economics news
+4.The user can find criminal news
+5.The user can find contacts
+
+test case
+use case 1
+- start the browser
+- tipe pravda.if.ua
+- click the culture button
+use case 2
+- start the browser
+- tipe pravda.if.ua
+- click the main button  
+use case 3
+- start the browser
+- tipe pravda.if.ua
+- click the economic button 
+use case 4
+- start the browser
+- tipe pravda.if.ua
+- click the economic button 
+use case 5
+- start the browser
+- tipe pravda.if.ua
+- click the contacts button 
