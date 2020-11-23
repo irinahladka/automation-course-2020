@@ -1,0 +1,585 @@
+{
+  "id": "a5efcff5-0892-4475-b570-b0424941e9fa",
+  "version": "2.0",
+  "name": "Selenium_IDE_PoC",
+  "url": "https://oldnavy.gap.com",
+  "tests": [{
+    "id": "9e8baf69-bc69-44cf-a2df-4057b29eb8d8",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "8e312285-3fff-4d93-8dbe-99f286e42a2f",
+    "name": "TC_2",
+    "commands": [{
+      "id": "12687cd7-9e46-45ef-bcd4-00961489f7ca",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d13f98ed-8bcf-4933-8f27-70786e1265fd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e3b27ff-1076-4490-8a9d-b4e21c79e87e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.topNavLink:nth-child(8) > .divisionLink",
+      "targets": [
+        ["css=.topNavLink:nth-child(8) > .divisionLink", "css:finder"],
+        ["xpath=//div[@id='topNavWrapper']/div/div/ul/li[8]/button", "xpath:idRelative"],
+        ["xpath=//li[8]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbce3287-ff25-4d08-b965-48f8f40da295",
+      "comment": "",
+      "command": "click",
+      "target": "css=.toddlergirls-division-header > span",
+      "targets": [
+        ["css=.toddlergirls-division-header > span", "css:finder"],
+        ["xpath=//div[@id='megaNav']/div/div/ul/div/span", "xpath:idRelative"],
+        ["xpath=//ul/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'(12M-6T)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "30ce64da-ab10-48db-b2e3-9cb2c066fc0f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.meganav-column:nth-child(1) > .wcd-gifting .catnav--item:nth-child(1) span",
+      "targets": [
+        ["css=.meganav-column:nth-child(1) > .wcd-gifting .catnav--item:nth-child(1) span", "css:finder"],
+        ["xpath=//div[@id='megaNav']/div/div/ul[2]/li/div/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8e6df65-8cac-450b-95ac-15e6a2ad931f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,400)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "febbf63a-b81b-4988-9084-4c3de705af37",
+    "name": "TC_3",
+    "commands": [{
+      "id": "01b2c14d-5417-46a6-99c6-59fab38b2795",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1de428f4-b0fa-4955-a45b-291a53f478ae",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d447f9ff-fa21-4ba2-ae1f-11855670002b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.topNavLink:nth-child(3) > .divisionLink",
+      "targets": [
+        ["css=.topNavLink:nth-child(3) > .divisionLink", "css:finder"],
+        ["xpath=//div[@id='topNavWrapper']/div/div/ul/li[3]/button", "xpath:idRelative"],
+        ["xpath=//li[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a608e79e-5a23-4102-bf0a-d33fac76adfd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.topNavLink--expanded > .divisionLink",
+      "targets": [
+        ["css=.topNavLink--expanded > .divisionLink", "css:finder"],
+        ["xpath=//div[@id='topNavWrapper']/div/div/ul/li[3]/button", "xpath:idRelative"],
+        ["xpath=//li[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef5a7e9a-5a0a-4ad3-ba8e-63d740e1ac2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.topNavLink--expanded > .divisionLink",
+      "targets": [
+        ["css=.topNavLink--expanded > .divisionLink", "css:finder"],
+        ["xpath=//div[@id='topNavWrapper']/div/div/ul/li[3]/button", "xpath:idRelative"],
+        ["xpath=//li[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5641dfa-5e35-4bee-8844-01cb1bf72dc0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.topNavLink:nth-child(4) > .divisionLink",
+      "targets": [
+        ["css=.topNavLink:nth-child(4) > .divisionLink", "css:finder"],
+        ["xpath=//div[@id='topNavWrapper']/div/div/ul/li[4]/button", "xpath:idRelative"],
+        ["xpath=//li[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1a3379c-0ee1-49ba-8bac-28b574268365",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.topNavLink:nth-child(4) > .divisionLink",
+      "targets": [
+        ["css=.topNavLink:nth-child(4) > .divisionLink", "css:finder"],
+        ["xpath=//div[@id='topNavWrapper']/div/div/ul/li[4]/button", "xpath:idRelative"],
+        ["xpath=//li[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e801afc-8f6b-4cac-9f9f-cb5aa6ea1ffd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-17h40vi > .css-fwusta-ComposableButton:nth-child(1)",
+      "targets": [
+        ["css=.css-17h40vi > .css-fwusta-ComposableButton:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Women')])[4]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/div[6]/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/category.do?cid=10018&mlink=5151,1,HP_Prim_1_b&clink=1')]", "xpath:href"],
+        ["xpath=//div[6]/div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a022e3c7-459b-41a3-ac9d-4a9691016bc5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54ed1906-da47-44e8-9165-310b93c3bd87",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,700)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb54033d-feda-4d82-96f9-121770354dc0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#product647809002 .product-card__image",
+      "targets": [
+        ["css=#product647809002 .product-card__image", "css:finder"],
+        ["xpath=//img[@alt='Plaid Ruffle-Yoke Flannel Shirt for Women']", "xpath:img"],
+        ["xpath=//div[@id='product647809002']/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5f5649b-aa1e-4fb2-b516-d676c23d9e6d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#product647809002 .product-card__image",
+      "targets": [
+        ["css=#product647809002 .product-card__image", "css:finder"],
+        ["xpath=//img[@alt='Plaid Ruffle-Yoke Flannel Shirt for Women']", "xpath:img"],
+        ["xpath=//div[@id='product647809002']/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c9f5552-2200-4e42-97ef-6ed8e9478740",
+      "comment": "",
+      "command": "click",
+      "target": "css=#product599695092 .product-card__image",
+      "targets": [
+        ["css=#product599695092 .product-card__image", "css:finder"],
+        ["xpath=//img[@alt='Cozy Textured Tunic Sweater for Women']", "xpath:img"],
+        ["xpath=//div[@id='product599695092']/div/a/img", "xpath:idRelative"],
+        ["xpath=//div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b2be40d-dcc5-438e-9524-a341483610ec",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,719)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b584eec1-9b5f-432f-8f92-8f07167686cb",
+    "name": "TC_4",
+    "commands": [{
+      "id": "e26bf36d-3ae2-49d3-94e8-a0a80d050ab8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "347fe0cf-6e29-48c1-ab11-36fee8d26001",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7acd72cc-4a96-4ec7-947b-3663c84afab3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.topNavLink:nth-child(12) > .divisionLink",
+      "targets": [
+        ["css=.topNavLink:nth-child(12) > .divisionLink", "css:finder"],
+        ["xpath=//div[@id='topNavWrapper']/div/div/ul/li[12]/button", "xpath:idRelative"],
+        ["xpath=//li[12]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f2a61a3-ef2d-4942-be1b-b57e649a4feb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.topNavLink:nth-child(12) > .divisionLink",
+      "targets": [
+        ["css=.topNavLink:nth-child(12) > .divisionLink", "css:finder"],
+        ["xpath=//div[@id='topNavWrapper']/div/div/ul/li[12]/button", "xpath:idRelative"],
+        ["xpath=//li[12]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78976058-b2b6-4345-935b-f78a058df108",
+      "comment": "",
+      "command": "click",
+      "target": "css=.topNavLink:nth-child(12) > .divisionLink",
+      "targets": [
+        ["css=.topNavLink:nth-child(12) > .divisionLink", "css:finder"],
+        ["xpath=//div[@id='topNavWrapper']/div/div/ul/li[12]/button", "xpath:idRelative"],
+        ["xpath=//li[12]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "589c8115-fb0e-4dc1-997e-3f51bc047f6d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.catnav--item:nth-child(1) span",
+      "targets": [
+        ["css=.catnav--item:nth-child(1) span", "css:finder"],
+        ["xpath=//div[@id='megaNav']/div/div/ul/li/div/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Shop All Face Masks')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c15bdb87-843d-48c9-a6be-fb22e73ae129",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catnav--item:nth-child(1) span",
+      "targets": [
+        ["css=.catnav--item:nth-child(1) span", "css:finder"],
+        ["xpath=//div[@id='megaNav']/div/div/ul/li/div/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Shop All Face Masks')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67241608-1404-40ca-99e2-16d4f62ef81d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,100)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7a93713-c3cc-4c54-81c8-a416d7efbe67",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,700)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85a2a490-40a8-4618-b974-67d6831104b7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,681)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d5807f4-20ee-4ff1-8576-f96c3f45f238",
+      "comment": "",
+      "command": "click",
+      "target": "css=#product660547082 .product-card__image",
+      "targets": [
+        ["css=#product660547082 .product-card__image", "css:finder"],
+        ["xpath=//img[@alt='Variety 3-Pack of Triple-Layer Cloth Contoured Critter Face Masks (with Laundry Bag) for Kids']", "xpath:img"],
+        ["xpath=//div[@id='product660547082']/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "50a7a1ab-77ab-4f43-87e6-26b98d012a2f",
+    "name": "TC_5",
+    "commands": [{
+      "id": "5d1eab60-502f-4ccb-ab7e-657b34693660",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89f05542-1d39-449b-ba2c-cf2a8d8067d8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7acab656-4263-4ffd-92c2-7bed2101919a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-kdfwxx",
+      "targets": [
+        ["css=.css-kdfwxx", "css:finder"],
+        ["xpath=(//img[@alt='Big Friday Pre-Sale 50% Off your purchase'])[2]", "xpath:img"],
+        ["xpath=//div[@id='sitewide-app']/div[6]/div/div/div[2]/div/div/div/a/div/img[2]", "xpath:idRelative"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a720600-578b-4647-a8b0-4acb2bc00c03",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.css-8f0wvd .css-kdfwxx",
+      "targets": [
+        ["css=.css-8f0wvd .css-kdfwxx", "css:finder"],
+        ["xpath=(//img[@alt='Big Friday Pre-Sale 50% Off your purchase'])[2]", "xpath:img"],
+        ["xpath=//div[@id='sitewide-app']/div[6]/div/div/div[2]/div/div/div/a/div/img[2]", "xpath:idRelative"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1499e206-69e6-4f58-99c5-8fa2665729a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-17h40vi > .css-fwusta-ComposableButton:nth-child(3)",
+      "targets": [
+        ["css=.css-17h40vi > .css-fwusta-ComposableButton:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Men')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/div[6]/div/div/div/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/category.do?cid=11174&mlink=5151,1,HP_Prim_1_b&clink=1')]", "xpath:href"],
+        ["xpath=//div[6]/div/div/div/div/div/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac4cfcca-a428-4425-901d-5132d8a7f0dd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#product662111242 .product-card__image",
+      "targets": [
+        ["css=#product662111242 .product-card__image", "css:finder"],
+        ["xpath=//img[@alt='Soft-Washed Graphic Tee for Men ']", "xpath:img"],
+        ["xpath=//div[@id='product662111242']/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52377b5d-beaa-4f96-bfac-2f9532c13f48",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,281)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02ce14a9-96f5-4620-8bdd-b4560b573400",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=#product662111242 .product-card__image",
+      "targets": [
+        ["css=#product662111242 .product-card__image", "css:finder"],
+        ["xpath=//img[@alt='Soft-Washed Graphic Tee for Men ']", "xpath:img"],
+        ["xpath=//div[@id='product662111242']/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": "157.609375,123.703125"
+    }, {
+      "id": "cc20c9a1-0246-49c0-b983-8f830cf881a8",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=#product662111242 .product-card__image",
+      "targets": [
+        ["css=#product662111242 .product-card__image", "css:finder"],
+        ["xpath=//img[@alt='Soft-Washed Graphic Tee for Men ']", "xpath:img"],
+        ["xpath=//div[@id='product662111242']/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": "157.609375,123.703125"
+    }, {
+      "id": "f17b7f4a-c4ef-4cb1-b379-4009aa4effb1",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=#product662111242 .product-card__image",
+      "targets": [
+        ["css=#product662111242 .product-card__image", "css:finder"],
+        ["xpath=//img[@alt='Soft-Washed Graphic Tee for Men ']", "xpath:img"],
+        ["xpath=//div[@id='product662111242']/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": "157.609375,123.703125"
+    }, {
+      "id": "d2632ad6-2d1d-43d2-b3ad-2d96a84739f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#product662111242 .product-card__image",
+      "targets": [
+        ["css=#product662111242 .product-card__image", "css:finder"],
+        ["xpath=//img[@alt='Soft-Washed Graphic Tee for Men ']", "xpath:img"],
+        ["xpath=//div[@id='product662111242']/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5db5797-706a-4dc4-a8bc-4f86c2b0b6ab",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#product662111242 .product-card__image",
+      "targets": [
+        ["css=#product662111242 .product-card__image", "css:finder"],
+        ["xpath=//img[@alt='Soft-Washed Graphic Tee for Men ']", "xpath:img"],
+        ["xpath=//div[@id='product662111242']/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "44e77bbe-c623-4fd9-953f-0b06ed6c8e2e",
+    "name": "TC_1",
+    "commands": [{
+      "id": "3f60e43e-ff93-487d-be0e-8447ac39597c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e8b875e5-63c4-4b76-9736-d3ef2e1ded5e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e15eee6-e8a9-4f29-915a-55d54ca510bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-17h40vi > .css-fwusta-ComposableButton:nth-child(4)",
+      "targets": [
+        ["css=.css-17h40vi > .css-fwusta-ComposableButton:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Girls')]", "xpath:link"],
+        ["xpath=//div[@id='sitewide-app']/div[6]/div/div/div/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/category.do?cid=6036&mlink=5151,1,HP_Prim_1_b&clink=1')]", "xpath:href"],
+        ["xpath=//div[6]/div/div/div/div/div/a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19a8cc0e-64ea-4aba-98ff-512afafb5c68",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,481)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd388910-48d4-44fc-b1d9-9ca9094d07ba",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,881)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1024cd2d-45af-4a50-b3f7-c0ce35f4d50d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Our Best Gifts",
+      "targets": [
+        ["linkText=Our Best Gifts", "linkText"],
+        ["xpath=//a[contains(text(),'Our Best Gifts')]", "xpath:link"],
+        ["xpath=(//div[@id='left-nav__section']/ul/div[3]/a)[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/category.do?cid=1094745&&nav=leftnav:girls:gifting:our%20best%20gifts#pageId=0&department=48')]", "xpath:href"],
+        ["xpath=//div[4]/ul/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Best Gifts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdb6d5c2-f848-4469-a21b-fb88d8aad4fa",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Our Best Gifts",
+      "targets": [
+        ["linkText=Our Best Gifts", "linkText"],
+        ["xpath=//a[contains(text(),'Our Best Gifts')]", "xpath:link"],
+        ["xpath=(//div[@id='left-nav__section']/ul/div[3]/a)[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/category.do?cid=1094745&&nav=leftnav:girls:gifting:our%20best%20gifts#pageId=0&department=48')]", "xpath:href"],
+        ["xpath=//div[4]/ul/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Best Gifts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "beb449f7-e4b0-4da8-88ec-a9d078b74b20",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tees",
+      "targets": [
+        ["linkText=Tees", "linkText"],
+        ["xpath=//a[contains(text(),'Tees')]", "xpath:link"],
+        ["xpath=(//div[@id='left-nav__section']/ul/div[2]/a)[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/browse/category.do?cid=6070&&nav=leftnav:girls:shop%20girls%20categories:tees#pageId=0&department=48')]", "xpath:href"],
+        ["xpath=//div[7]/ul/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tees')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df830d57-e03d-4d2c-8fb5-2bd74454cc62",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1481)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e65e2d34-c78e-41e9-86e6-2b1111417643",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,400)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf51a58c-48f9-4c73-b253-e5bdc2ea20b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#product609258052 .product-card__image",
+      "targets": [
+        ["css=#product609258052 .product-card__image", "css:finder"],
+        ["xpath=//img[@alt='Softest Long-Sleeve Lattice-Back Tee for Girls']", "xpath:img"],
+        ["xpath=//div[@id='product609258052']/div/a/img", "xpath:idRelative"],
+        ["xpath=//div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "26ce2887-c8e3-4a8a-af0d-845f20aaceba",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9e8baf69-bc69-44cf-a2df-4057b29eb8d8"]
+  }, {
+    "id": "7de2ae2e-ccc2-4f2f-8bd6-8a0b11ab8d23",
+    "name": "Practical_Task",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["44e77bbe-c623-4fd9-953f-0b06ed6c8e2e", "8e312285-3fff-4d93-8dbe-99f286e42a2f", "febbf63a-b81b-4988-9084-4c3de705af37", "b584eec1-9b5f-432f-8f92-8f07167686cb", "50a7a1ab-77ab-4f43-87e6-26b98d012a2f"]
+  }],
+  "urls": ["https://oldnavy.gap.com/"],
+  "plugins": []
+}
