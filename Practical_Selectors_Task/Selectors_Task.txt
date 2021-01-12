@@ -1,6 +1,8 @@
 Test case 1
 1.navigate to oldnavy.gap.com
-2.click on "Girls" //button[contains(text(),'Girls')] ////// //header/div[@id='topNavWrapper']/div[1]/div[1]/ul[1]/li[6]/button[1]////
+2.click on "Girls" //button[contains(text(),'Girls')] *** //button[text()='Girls'] *** 
+//*[@aria-label='girls'] *** //*[@data-divisionname='Girls']
+//header/div[@id='topNavWrapper']/div[1]/div[1]/ul[1]/li[6]/button[1]////
  div.brand-bar.css-x97jm9:nth-child(7) div.css-15fyknv header.brand-bar__header div.on.sds_grid-root:nth-child(4) div:nth-child(1) div.topnav-container.sds_g-1-1 ul.heading-e.topnav li.topNavLink:nth-child(6) > button.divisionLink
 3.Click on tees
 

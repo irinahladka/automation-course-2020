@@ -1,42 +1,35 @@
-package com.atqa2020;
+package com.atqa2020.journeys;
 
+import com.atqa2020.BaseTest;
+
+import com.atqa2020.pages.GirlsPage;
+import com.atqa2020.pages.HomePage;
 import org.openqa.selenium.By;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class FirstWebTests {
-    private RemoteWebDriver driver;
+public class OldnavyTests extends BaseTest {
+
     @BeforeMethod
     public void setup() {
-        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
-        driver = new ChromeDriver();
+        driver.get("https://oldnavy.gap.com");
     }
 
-    @AfterMethod
-    public void tearDown() {
-        if (driver != null) {
-            driver.quit();
-        }
-    }
-
-    @Test(priority = 0, suiteName = "main")
-    public void mainUrlTest() {
-
+    @Test(groups = "main", priority = 0)
+    public void mainUrlTest() throws Exception {
 
         //Given user opens a browser and provides a valid url
-        driver.get("https://oldnavy.gap.com");
-        //When user clicks enter
+
+        //When user clicks on the "GIRLS" button
 
         //And
 
-        //Then user is redirected to the main page
+        //Then user is redirected to the page where the products are for girls
         Assert.assertTrue(driver.findElement(By.xpath("//button[contains(text(),'Girls')]")).isDisplayed());
     }
-    @Test(priority = 1, suiteName = "main")
+
+    @Test(groups = "main", priority = 1)
     public void firstTest() {
 
 
@@ -49,7 +42,7 @@ public class FirstWebTests {
         //Then user is redirected to the main page
         Assert.assertTrue(driver.findElement(By.xpath("//button[contains(text(),'Toddler')]")).isDisplayed());
     }
-    @Test(priority = 2, suiteName = "main")
+    @Test(groups = "main", priority = 2)
     public void secondTest() {
 
 
@@ -62,7 +55,7 @@ public class FirstWebTests {
         //Then user is redirected to the main page
         Assert.assertTrue(driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[4]/div[1]/header[1]/div[1]")).isDisplayed());
     }
-    @Test(priority = 3, suiteName = "main")
+    @Test(groups = "main", priority = 3)
     public void thirdTest() {
 
 
@@ -76,7 +69,7 @@ public class FirstWebTests {
         //Then user is redirected to the main page
         Assert.assertTrue(driver.findElement(By.xpath("//button[contains(text(),'Masks')]")).isDisplayed());
     }
-    @Test(priority = 4, suiteName = "main")
+    @Test(groups = "main", priority = 4)
     public void forthTest() {
 
 
