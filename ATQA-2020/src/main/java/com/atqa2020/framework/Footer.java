@@ -16,6 +16,6 @@ public class Footer extends GeneralElements {
         driver.findElement(By.xpath(customerServiceLinkLocator)).click();
         return PageFactory.newPage(driver, CustomerServicePage.class);
     }
-
+//TODO please remove redundant empty lines
 
 }
