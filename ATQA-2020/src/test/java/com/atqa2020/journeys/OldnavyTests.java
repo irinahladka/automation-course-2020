@@ -18,7 +18,7 @@ public class OldnavyTests extends BaseTest {
 
     @Test(groups = "main", priority = 0)
     public void mainUrlTest() throws Exception {
-
+        //TODO empty lines, same applies to all methods below
         //Given user opens a browser and provides a valid url
 
         //When user clicks on the "GIRLS" button
@@ -32,7 +32,7 @@ public class OldnavyTests extends BaseTest {
     @Test(groups = "main", priority = 1)
     public void firstTest() {
 
-
+        //TODO note required as this is already declared in BeforeMethod, same applies to all methods below
         //Given user opens a browser and provides a valid url
         driver.get("https://oldnavy.gap.com");
         //When user clicks enter
