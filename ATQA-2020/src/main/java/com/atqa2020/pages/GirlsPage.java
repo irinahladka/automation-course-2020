@@ -11,7 +11,7 @@ public class GirlsPage extends Page {
         super(driver);
     }
     }
-
+//TODO I do believe that one curly brace is redundant as well as some lines
 
 }
 
