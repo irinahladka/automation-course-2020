@@ -26,19 +26,19 @@ public class FirstWebTests {
     @Test(priority = 0, suiteName = "main")
     public void mainUrlTest() {
 
-
+        //TODO tthis call should be in BeforeMethod, same applies to all methods below
         //Given user opens a browser and provides a valid url
         driver.get("https://oldnavy.gap.com");
         //When user clicks enter
 
         //And
-
+        //TODO all interactions with an elemnts should be on the corresponding page, same applies to all methods below
         //Then user is redirected to the main page
         Assert.assertTrue(driver.findElement(By.xpath("//button[contains(text(),'Girls')]")).isDisplayed());
     }
     @Test(priority = 1, suiteName = "main")
     public void firstTest() {
-
+        //TODO empty lines, same applies to all methods below
 
         //Given user opens a browser and provides a valid url
         driver.get("https://oldnavy.gap.com");
