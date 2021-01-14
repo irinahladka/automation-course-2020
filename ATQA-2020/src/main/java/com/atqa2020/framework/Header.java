@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class Header extends GeneralElements {
-
+    //TODO please align code and remove double empty lines 
     protected RemoteWebDriver driver;
 
        private String girlsButtonLocator = "//button[contains(text(),'Girls')]";
@@ -26,7 +26,7 @@ public class Header extends GeneralElements {
         driver.findElement(By.xpath(girlsButtonLocator)).click();
         return PageFactory.newPage(driver, clazz);
     }
-
+    //TODO I'd imagine this method should be named - navigateToGirlsPage()
     public GirlsPage navigateToGirlsButton() throws Exception {
         driver.findElement(By.xpath(girlsButtonLocator)).click();
         return PageFactory.newPage(driver, GirlsPage.class);
